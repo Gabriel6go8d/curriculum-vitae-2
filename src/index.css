@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body p{
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.app_container{
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/09/02/blue-minimalistic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+   
 }
+
+.content{
+  position: relative;
+  top: 10vh;
+  height: 70vh;  
+}
+
+.img_person{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 120px;
+}
+
+.view_person{
+  background-color: white;
+  border-radius: 5px;
+  height: 70vh;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.name_desc{
+  color: gray;
+  font-weight: 100;
+}
+
+.view_person_footer{
+  width: 100%;
+  margin-top: auto;
+}
+
+.divider{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0));
+}
+
+.buttons{
+  display: flex;
+  height: 100%;
+}
+
+.vertical_divider{
+  height: 100%;
+  width: 1px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20));
+}
+.vertical_divider2{
+  height: 100%;
+  width: 1px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
+}
+
+.but{
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.view_expose{
+  background-color: white;
+  margin-top: 2.5vh;
+  border-radius: 0px 5px 5px 0px;
+  height: 65vh;
+}
+
+.myNav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.item{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 2px;
+  margin-right: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  filter: grayscale(1);
+}
+.item p{
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: blue;
+}
+.item:hover {
+  filter: grayscale(0);
+}
+
+
+.link{
+  transition: all 400ms ease;
+  filter: grayscale(1);
+}
+.link:hover{
+  filter: grayscale(0);
+}
+
+.view_exposer{
+  transition: all 300ms ease;
+  opacity: 1;
+}
+.exposer_hide{
+  opacity: 0;
+}
+
+.shape{
+  width: 100%;
+  height: 200px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+  border-radius: 5px;
+
+}
+
+.about_rigth h5{
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #a2d6f7;
+  border-radius: 3px;
+  width: 80px;
+  padding: 2px 10px;
+}
+.about_rigth p{
+  font-size: 14px;
+}
+.about_left h5:first-child{
+  color: #2881b8;
+  margin-right: 5px;
+}
+
+
+
+
+
+
