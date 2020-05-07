@@ -58,6 +58,7 @@ body p{
 .buttons{
   display: flex;
   height: 100%;
+  cursor: pointer;
 }
 
 .vertical_divider{
@@ -96,42 +97,64 @@ body p{
 }
 
 .item{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 7px;
   margin-top: 2px;
   margin-right: 3px;
   cursor: pointer;
   transition: all 300ms ease;
-  filter: grayscale(1);
 }
 .item p{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
+  white-space: nowrap;
+  padding-top: 5px;
   margin-bottom: 0px;
-  color: blue;
+  margin-left: 10px;
+  color: #2881b8;  
+  position: absolute;
+  left: 20px;
+  
+  opacity: 0;
 }
-.item:hover {
-  filter: grayscale(0);
+.item_icon{
+  filter: brightness(0);
+  margin-left: 12px;
+  margin-bottom: 1px;
 }
-
+.item:hover .item_icon{
+  filter: brightness(1);
+}
+.item:hover p{
+  opacity: 1;
+  transition: all 600ms ease;
+}
+.item:hover{
+  width: 100px;
+}
 
 .link{
   transition: all 400ms ease;
-  filter: grayscale(1);
+  filter: brightness(0);
+  cursor: pointer;
 }
 .link:hover{
-  filter: grayscale(0);
+  filter: brightness(1);
 }
 
 .view_exposer{
   transition: all 300ms ease;
   opacity: 1;
+  
+}
+.myScroll{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll
 }
 .exposer_hide{
   opacity: 0;
@@ -161,8 +184,93 @@ body p{
   margin-right: 5px;
 }
 
+.section_title{
+  color: #2881b8;
+}
+
+.experiencia p{
+  margin-bottom: 0;
+}
+.experiencia p:nth-of-type(1){
+  font-size: 12px;
+}
+.experiencia p:nth-of-type(2){
+  font-size: 18px;
+  font-weight: 500;
+}
+.experiencia p:nth-of-type(4){
+  font-size: 12px;
+}
+.experiencia p:nth-of-type(5){
+  font-size: 15px;
+  margin-top: 5px;
+}
 
 
+.myCard img{
+  width: 100%;
+}
+.myCard p{
+  margin-bottom: 0;
+}
+.myCard p:nth-of-type(1){
+  font-size: 20px;
+  font-weight: 400;
+  color: #2881b8;
+  padding-top: 10px;
+}
+.myCard p:nth-of-type(3){
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.tecnologies{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.tecnologies h5{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
 
+.projects_area{
+  height: 1100px;
+}
 
+.contact_form{
+  padding: 30px;
+}
 
+.movilshow{
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .view_person{
+    height: max-content;
+    border-radius: 0;
+  }
+  .view_expose{
+    height: max-content;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .movilhidde{
+    display: none;
+  }
+  .myScroll{
+    overflow-y: visible;
+  }
+  .movilshow{
+    display: inline-block;
+  }
+  .projects_area{
+    height: max-content;
+  }
+  .section_title{
+    font-size: 30px;
+    text-align: center;
+  }
+}

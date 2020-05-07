@@ -34,16 +34,18 @@ function Main() {
     }
 
     return (
-        <div className='content'>
-            <div className='row m-0 p-0 justify-content-center'>
-                <div className='col-1 m-0 p-0'>
-                    <ViewButtoms action={ChangeView}/>
-                </div>
-                <div className='col-4 m-0 p-0'>
-                    <ViewPerson action={ChangeView}/>
-                </div>
-                <div className='col-6 m-0 p-0 view_exposer' id='exposer'>
-                    {toShow}
+        <div className='container'>        
+            <div className='content'>
+                <div className='row m-0 p-0 justify-content-center'>
+                    <div className='col-1 m-0 p-0'>
+                        <ViewButtoms action={ChangeView}/>
+                    </div>
+                    <div className='col-4 m-0 p-0'>
+                        <ViewPerson action={ChangeView}/>
+                    </div>
+                    <div className='col-7 m-0 p-0 view_exposer' id='exposer'>
+                        {toShow}
+                    </div>
                 </div>
             </div>
         </div>
