@@ -1,0 +1,136 @@
+[
+    {
+        "lang": "ES",
+        "person": {
+            "desc1": "Desarrollador Web",
+            "desc2": "Hola, mi nombre es Gabriel y soy un Ing. en Telecomunicaciones que le encanta la programación. Cada dia se presentan nuevos retos y con ellos nuevos caminos, nuevas formas de ver las cosas y posibilidades de mejorar. Soy una persona muy activa y con una actitud positiva ante el trabajo. Me gustan los retos y trabajar en equipo.",
+            "bu1": "Descargar CV",
+            "bu2": "Contactar"
+        },
+        "about": {
+            "title1": "Sobre",
+            "title2": "Mi",
+            "desc": "Hola, mi nombre es Gabriel y soy un Ing. en Telecomunicaciones que le encanta la programación. Cada dia se presentan nuevos retos y con ellos nuevos caminos, nuevas formas de ver las cosas y posibilidades de mejorar. Soy una persona muy activa y con una actitud positiva ante el trabajo. Me gustan los retos y trabajar en equipo.",
+            "address1": "Dirección",
+            "address2": "Madrid, 28038, España",
+            "phone1": "Telefono",
+            "phone2": "+34 625967964",
+            "email1": "Correo",
+            "email2": "gabriel.ares93@gmail.com",
+            "interest1": "Intereses",
+            "interest2": "Game",
+            "interest3": "Anime",
+            "interest4": "Cine"
+        },
+        "resume": {
+            "title1": "Experiencia",
+            "ex11": "03/2016 - 09/2019",
+            "ex12": "Administrador",
+            "ex13": "MEGA",
+            "ex14": "La Habana, Cuba",
+            "ex15": "Administración Comercial • Servicio de Pre y Post-Venta • Venta de Productos y Servicios de Telefonía",
+            "ex21": "09/2014 - 08/2017",
+            "ex22": "Profesor",
+            "ex23": "Universidad CUJAE",
+            "ex24": "La Habana, Cuba",
+            "ex25": "Impartir clases y laboratorios de pregrado • Realización de exámenes y calificación",
+            "title2": "Educación",
+            "ed11": "09/2019 - Presente",
+            "ed12": "MBA Master en Administracion de Empresa",
+            "ed13": "Eude Business School",
+            "ed14": "Madrid, España",
+            "ed21": "09/2012 - 08/2017",
+            "ed22": "Ing. en Telecomunicaciones y Electrónica",
+            "ed23": "Universidad CUJAE",
+            "ed24": "La Habana, Cuba"
+        },
+        "skill": {
+            "title": "Habilidades",
+            "sk11": "Desarrollo Web",
+            "sk12": "Frontend Framework",
+            "sk13": "Backend Framework",
+            "sk14": "Desarrollo App"
+        },
+        "contact": {
+            "c11": "Nombre",
+            "c12": "John Doe",
+            "c21": "Correo",
+            "c22": "nombre@ejemplo.com",
+            "c31": "Contenido",
+            "cb": "Enviar"
+        },
+        "code": {
+            "title": "Sobre esta Página.",
+            "co11": "Esta pagina fue creada desde cero utilizando:",
+            "co12": "Durante su creación utilicé los conceptos básicos de React, componentes de Bootstrap e íconos de React-Icons. Es una SPA donde las animaciones fueron hechas con CSS y para el formulario de contacto utilicé FORMSPREE.",
+            "co13": "Ver el código:"
+        }
+    },
+    {
+        "lang": "EN",
+        "person": {
+            "desc1": "Web Developer",
+            "desc2": "Hello, my name is Gabriel and I am a Telecommunications Engineer who loves programming. Every day new challenges came up and with them new paths, new ways of seeing things and possibilities for improvement. I am a very active person with a positive attitude towards work. I like challenges and teamwork.",
+            "bu1": "Download CV",
+            "bu2": "Contact"
+        },
+        "about": {
+            "title1": "About",
+            "title2": "Me",
+            "desc": "Hello, my name is Gabriel and I am a Telecommunications Engineer who loves programming. Every day new challenges came up and with them new paths, new ways of seeing things and possibilities for improvement. I am a very active person with a positive attitude towards work. I like challenges and teamwork.",
+            "address1": "Address",
+            "address2": "Madrid, 28038, España",
+            "phone1": "Phone",
+            "phone2": "+34 625967964",
+            "email1": "Email",
+            "email2": "gabriel.ares93@gmail.com",
+            "interest1": "Interest",
+            "interest2": "Game",
+            "interest3": "Anime",
+            "interest4": "Movies"
+        },
+        "resume": {
+            "title1": "Experience",
+            "ex11": "03/2016 - 09/2019",
+            "ex12": "Administrator",
+            "ex13": "MEGA",
+            "ex14": "La Habana, Cuba",
+            "ex15": "Commercial Administration • Pre and Post-Sell Service • Sell tecnological products and Services ",
+            "ex21": "09/2014 - 08/2017",
+            "ex22": "Professor",
+            "ex23": "University CUJAE",
+            "ex24": "La Habana, Cuba",
+            "ex25": "Teach undergraduate classes and laboratories. • Examination and qualification.",
+            "title2": "Education",
+            "ed11": "09/2019 - Present",
+            "ed12": "MBA Master in Business Administration",
+            "ed13": "Eude Business School",
+            "ed14": "Madrid, Spain",
+            "ed21": "09/2012 - 08/2017",
+            "ed22": "Telecommunications Engineering",
+            "ed23": "University CUJAE",
+            "ed24": "La Habana, Cuba"
+        },
+        "skill": {
+            "title": "Skills",
+            "sk11": "Web Development",
+            "sk12": "Frontend Framework",
+            "sk13": "Backend Framework",
+            "sk14": "App Development"
+        },
+        "contact": {
+            "c11": "Name",
+            "c12": "John Doe",
+            "c21": "Email",
+            "c22": "name@example.com",
+            "c31": "Content",
+            "cb": "Send"
+        },
+        "code": {
+            "title": "About this Page",
+            "co11": "This page was created from scratch using:",
+            "co12": "During its creation I used the basic concepts of React, Bootstrap components and icons of React-Icons. It is a SPA where the animations were made with CSS and for the contact form I used FORMSPREE.",
+            "co13": "Check the code:"
+        }
+    }
+]

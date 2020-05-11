@@ -1,0 +1,92 @@
+[
+    {
+        "lang": "ES",
+        "data": [
+            {
+                "id": 1,
+                "src": "project1.png",            
+                "name": "Primeros Pasos",
+                "desc": "Diseño de una calculadora y contadores con React",
+                "know": "En este pequeño proyecto aprendí los conceptos básicos de React, Layout and Components, cómo usar componentes dinámicamente, useStates y React Hooks. También funcionó como práctica para Bootstrap, haciendo que la página responda mientras muestra buenos componentes con estilo. Aprendo cómo crear nuevos repositorios en GitHub y cómo implementar mis proyectos en gh-Pages, hacer el primer compromiso y preparar el camino para el futuro.",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/firts-steps/",
+                "code": "https://github.com/Gabriel6go8d/firts-steps"
+            },
+            {
+                "id": 2,
+                "src": "project2.png",            
+                "name": "ACanvas",
+                "desc": "Diseño de animaciones utilizando Canvas.",
+                "know": "Este fue un proyecto muy divertido, jugar con las características del lienzo y las matemáticas fue un pequeño desafío. También funcionó como práctica para Bootstrap y React Hooks (useState y useEffect).",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/canvas-training/",
+                "code": "https://github.com/Gabriel6go8d/canvas-training"            
+            },
+            {
+                "id": 3,
+                "src": "project3.png",            
+                "name": "FinalFantasy",
+                "desc": "Blog y Galeria con tematica de Final Fantasy",
+                "know": "En este proyecto aprendi a crear animaciones con CSS y a usar el InteractionObserver para activar la animación cuando el elemento alcance cierto punto, además a crear un botom de descarga para archivos localizados en el servidor local, utilizar las Cards de Bootstrap, como crear un efecto Parallax y utilizar el react-odometer. Además, como usar el react-route-dom, en especial para GitHub Pages, usando HashRouter en ves de BrowserRouter y lidiando con el bug de desplazamiento.",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/FinalFantasy/#/",
+                "code": "https://github.com/Gabriel6go8d/FinalFantasy"            
+            },
+            {
+                "id": 4,
+                "src": "project4.png",            
+                "name": "Aweather",
+                "desc": "Clima App utilizando la API de OpenWeathermap",
+                "know": "Este es un proyecto de entrenamiento con el objetivo de aprender a usar Axios dentro de React, utilizando una API para obtener la información desde https://openweathermap.org/ y mostrarla en la interfaz de usuario. Por otra parte, aprendí a crear una barra lateral utilizando CSS y Javascript, para interactuar con la aplicación, la cual presenta multiples Views o Componentes en una sola página.",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/api-training/",
+                "code": "https://github.com/Gabriel6go8d/api-training"            
+            }
+        ]
+    },
+    {
+        "lang": "EN",
+        "data": [
+            {
+                "id": 1,
+                "src": "project1.png",   
+                "name": "First Steps",
+                "desc": "Design of a calculator and counters with React",
+                "know": "In this little project I learned the basics of React, the Layout and Components, how to use Components dinamicaly, useStates and React Hooks. Also it worked as practice for Bootstrap, making the page responsive while displaying good stylish components. I learn how to create new Repositories in GitHub and how to deploy my projects on the gh-Pages, make the first commit ever and prepare the way for the future.",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/firts-steps/",
+                "code": "https://github.com/Gabriel6go8d/firts-steps"         
+            },
+            {
+                "id": 2,
+                "src": "project2.png",            
+                "name": "ACanvas",
+                "desc": "Design of animation using Canvas",
+                "know": "This was a really fun project, playing with features of canvas and the math was a little challenge. Also it worked as practice for Bootstrap and React Hooks (useState and useEffect).",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/canvas-training/",
+                "code": "https://github.com/Gabriel6go8d/canvas-training"            
+            },
+            {
+                "id": 3,
+                "src": "project3.png",            
+                "name": "FinalFantasy",
+                "desc": "Blog and Gallery about Final Fantasy",
+                "know": "I learned how to create animations with CSS and how to use InteractionObserver in order to trigger the animation when the element reaches certain point, how to handle a download button for files on the local server and use the Cards from Bootstrap. Also, how to create a Parallax effect and how to use the react-odometer. Additionally I learned how to use the react-route-dom, especially for GitHub Pages, with HashRouter insted of BrowserRouter and dealing with the scroll bug.",
+                "tec": ["html", "css", "react", "bootstrap"],
+                "page": "https://gabriel6go8d.github.io/FinalFantasy/#/",
+                "code": "https://github.com/Gabriel6go8d/FinalFantasy"            
+            },
+            {
+                "id": 4,
+                "src": "project4.png",            
+                "name": "AWeather",
+                "desc": "Weather App using OpenWeathermap's API",
+                "know": "This is a training project aiming to learn how to use Axios inside React, use an API to get data from https://openweathermap.org/ and display it in a nice interface. On the other hand, learnd how to create a sideBar using CSS and Javascript in order to interac with the application which have multiples Views or Components presented on a single page.",
+                "tec": ["html", "css", "react", "bootstrap", "axios", "openweather"],
+                "page": "https://gabriel6go8d.github.io/api-training/",
+                "code": "https://github.com/Gabriel6go8d/canvas-training"            
+            }
+        ]
+    }
+]

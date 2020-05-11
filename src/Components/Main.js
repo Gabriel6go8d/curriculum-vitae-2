@@ -5,6 +5,8 @@ import ViewButtoms from './ViewButtoms'
 import ViewResume from './ViewResume'
 import ViewPortafolio from './ViewPortafolio'
 import ViewContact from './ViewContact'
+import ViewSkills from './ViewSkills'
+import ViewCode from './ViewCode'
 
 function Main() {
 
@@ -25,6 +27,17 @@ function Main() {
                     break
                 case 'contact':
                     setToShow(<ViewContact/>)
+                    break
+                case 'habilidades':
+                    setToShow(<ViewSkills/>)
+                    break
+                case 'codigo':
+                    setToShow(<ViewCode/>)
+                    break
+                case 'reload':
+                    const pp = toShow
+                    setToShow()
+                    setToShow(pp)
                     break
                 default:
                     break

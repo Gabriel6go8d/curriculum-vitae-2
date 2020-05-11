@@ -1,4 +1,4 @@
-body p{
+body p, h5, div{
   font-weight: 300;
   font-family: 'Roboto Slab', serif;
 }
@@ -117,14 +117,23 @@ body p{
   margin-left: 10px;
   color: #2881b8;  
   position: absolute;
-  left: 20px;
-  
+  left: 15px;  
   opacity: 0;
 }
 .item_icon{
   filter: brightness(0);
   margin-left: 12px;
   margin-bottom: 1px;
+}
+.lang h5{
+  margin-left: 10px;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.lang p{
+  font-size: 17px;
+  left: 46px;
+  padding-top: 0;
 }
 .item:hover .item_icon{
   filter: brightness(1);
@@ -136,6 +145,8 @@ body p{
 .item:hover{
   width: 100px;
 }
+
+
 
 .link{
   transition: all 400ms ease;
@@ -155,6 +166,15 @@ body p{
   height: 100%;
   width: 100%;
   overflow-y: scroll
+}
+.myScroll::-webkit-scrollbar{
+  width: 7px;
+  background-color: rgb(243, 240, 240);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a2d6f7;
+  border-radius: 2px;
 }
 .exposer_hide{
   opacity: 0;
@@ -206,9 +226,25 @@ body p{
   margin-top: 5px;
 }
 
-
-.myCard img{
+.cardDesc{
+  margin: 10px 20px;
+  transition: all 500ms ease ;
+  pointer-events: none;
+  text-align: justify;
+  font-weight: 300;
+  opacity: 0;
+  max-height: 0;
+}
+.myCardOpen .cardDesc{
+  max-height: 500px;
+  opacity: 1;
+}
+.card_img{
   width: 100%;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .myCard p{
   margin-bottom: 0;
@@ -224,15 +260,29 @@ body p{
   font-weight: 500;
   padding-top: 10px;
 }
+
+.trigger_MyTooltip{
+  width: max-content;
+  color:#2881b8;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
 .tecnologies{
   display: flex;
   align-items: center;
   justify-items: center;
+  flex-wrap: wrap;
 }
-.tecnologies h5{
+.tecnologies_label{
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 0;
+}
+.tecnologies svg{
+  min-width: 20px;
 }
 
 .projects_area{
@@ -246,6 +296,11 @@ body p{
 .movilshow{
   display: none;
 }
+
+.skill_section{
+  height: 50vh;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .view_person{
@@ -262,7 +317,7 @@ body p{
   }
   .myScroll{
     overflow-y: visible;
-  }
+  }  
   .movilshow{
     display: inline-block;
   }
@@ -272,5 +327,8 @@ body p{
   .section_title{
     font-size: 30px;
     text-align: center;
+  }
+  .skill_section{
+    height: max-content;
   }
 }
