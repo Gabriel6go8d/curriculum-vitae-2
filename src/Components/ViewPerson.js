@@ -17,7 +17,7 @@ function ViewPerson(prop) {
     return (
         <div className='view_person shadow' >
             
-            <img alt='backshape' className='shape' src='https://www.ecopetit.cat/wpic/mpic/9-90545_fiordland-mountain-sunrise-4k-hd-4k-wallpapers-images.jpg'></img>
+            <img alt='backshape' className='shape' src={require('../Images/fondo.png')}></img>
             <Image className='img_person' alt='Gabriel' src={require('../Images/gabriel5.jpg')} roundedCircle></Image>
 
             <h3 className='name_user mt-5'>Gabriel Gutierrez</h3>
