@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/curriculum-vitae-2/static/css/main.28da3f07.chunk.css",
-    "main.js": "/curriculum-vitae-2/static/js/main.c447019a.chunk.js",
-    "main.js.map": "/curriculum-vitae-2/static/js/main.c447019a.chunk.js.map",
+    "main.js": "/curriculum-vitae-2/static/js/main.c66bf9a6.chunk.js",
+    "main.js.map": "/curriculum-vitae-2/static/js/main.c66bf9a6.chunk.js.map",
     "runtime-main.js": "/curriculum-vitae-2/static/js/runtime-main.93d495d5.js",
     "runtime-main.js.map": "/curriculum-vitae-2/static/js/runtime-main.93d495d5.js.map",
     "static/css/2.69121389.chunk.css": "/curriculum-vitae-2/static/css/2.69121389.chunk.css",
-    "static/js/2.b36c1ad0.chunk.js": "/curriculum-vitae-2/static/js/2.b36c1ad0.chunk.js",
-    "static/js/2.b36c1ad0.chunk.js.map": "/curriculum-vitae-2/static/js/2.b36c1ad0.chunk.js.map",
+    "static/js/2.69c4d37a.chunk.js": "/curriculum-vitae-2/static/js/2.69c4d37a.chunk.js",
+    "static/js/2.69c4d37a.chunk.js.map": "/curriculum-vitae-2/static/js/2.69c4d37a.chunk.js.map",
     "index.html": "/curriculum-vitae-2/index.html",
-    "precache-manifest.69301f29a6ee11aeadaee174702e5915.js": "/curriculum-vitae-2/precache-manifest.69301f29a6ee11aeadaee174702e5915.js",
+    "precache-manifest.d8dd3cf3ad6e24cea846705fbf88a3fa.js": "/curriculum-vitae-2/precache-manifest.d8dd3cf3ad6e24cea846705fbf88a3fa.js",
     "service-worker.js": "/curriculum-vitae-2/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/curriculum-vitae-2/static/css/2.69121389.chunk.css.map",
     "static/css/main.28da3f07.chunk.css.map": "/curriculum-vitae-2/static/css/main.28da3f07.chunk.css.map",
-    "static/js/2.b36c1ad0.chunk.js.LICENSE.txt": "/curriculum-vitae-2/static/js/2.b36c1ad0.chunk.js.LICENSE.txt",
+    "static/js/2.69c4d37a.chunk.js.LICENSE.txt": "/curriculum-vitae-2/static/js/2.69c4d37a.chunk.js.LICENSE.txt",
+    "static/media/fondo.png": "/curriculum-vitae-2/static/media/fondo.f6d0e3e1.png",
     "static/media/gabriel5.jpg": "/curriculum-vitae-2/static/media/gabriel5.2e308912.jpg",
     "static/media/project1.png": "/curriculum-vitae-2/static/media/project1.63a9836c.png",
     "static/media/project1a.png": "/curriculum-vitae-2/static/media/project1a.5506f1ed.png",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.93d495d5.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.b36c1ad0.chunk.js",
+    "static/js/2.69c4d37a.chunk.js",
     "static/css/main.28da3f07.chunk.css",
-    "static/js/main.c447019a.chunk.js"
+    "static/js/main.c66bf9a6.chunk.js"
   ]
 }
