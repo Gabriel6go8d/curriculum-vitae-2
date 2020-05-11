@@ -7,7 +7,7 @@
                 "src": "project1.png",            
                 "name": "Primeros Pasos",
                 "desc": "Diseño de una calculadora y contadores con React",
-                "know": "En este pequeño proyecto aprendí los conceptos básicos de React, Layout and Components, cómo usar componentes dinámicamente, useStates y React Hooks. También funcionó como práctica para Bootstrap, haciendo que la página responda mientras muestra buenos componentes con estilo. Aprendo cómo crear nuevos repositorios en GitHub y cómo implementar mis proyectos en gh-Pages, hacer el primer compromiso y preparar el camino para el futuro.",
+                "know": "En este pequeño proyecto aprendí los conceptos básicos de React, Layout y Components, cómo usar componentes dinámicamente, useStates y React Hooks. También funcionó como práctica para Bootstrap, haciendo que la página sea responsive mientras muestra componentes con buen diseño. Además, aprendí a crear nuevos repositorios en GitHub y cómo implementar mis proyectos en gh-Pages, hacer el primer commit y preparar el camino para el futuro.",
                 "tec": ["html", "css", "react", "bootstrap"],
                 "page": "https://gabriel6go8d.github.io/firts-steps/",
                 "code": "https://github.com/Gabriel6go8d/firts-steps"
@@ -17,7 +17,7 @@
                 "src": "project2.png",            
                 "name": "ACanvas",
                 "desc": "Diseño de animaciones utilizando Canvas.",
-                "know": "Este fue un proyecto muy divertido, jugar con las características del lienzo y las matemáticas fue un pequeño desafío. También funcionó como práctica para Bootstrap y React Hooks (useState y useEffect).",
+                "know": "Este fue un proyecto muy divertido, aprendí a trabajar con las características del canvas mientras creaba animaciones interesantes, además las matemáticas fueron un pequeño desafío. También funcionó como práctica para Bootstrap y React Hooks (useState, useEffect, useRef) y aprendí a usar la libreria de React-Icons ",
                 "tec": ["html", "css", "react", "bootstrap"],
                 "page": "https://gabriel6go8d.github.io/canvas-training/",
                 "code": "https://github.com/Gabriel6go8d/canvas-training"            
@@ -62,7 +62,7 @@
                 "src": "project2.png",            
                 "name": "ACanvas",
                 "desc": "Design of animation using Canvas",
-                "know": "This was a really fun project, playing with features of canvas and the math was a little challenge. Also it worked as practice for Bootstrap and React Hooks (useState and useEffect).",
+                "know": "This was a really fun project, working with the features of canvas while creating interesting animations, also the math was a little challenge. Plus that, it worked as practice for Bootstrap and React Hooks (useState, useEffect, useRef) and I learned how to use the React-Icons´s library.",
                 "tec": ["html", "css", "react", "bootstrap"],
                 "page": "https://gabriel6go8d.github.io/canvas-training/",
                 "code": "https://github.com/Gabriel6go8d/canvas-training"            

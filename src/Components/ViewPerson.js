@@ -24,8 +24,8 @@ function ViewPerson(prop) {
             <h5 className='name_desc' id='name_desc'>{TextSelect.desc1}</h5>
 
             <div className='social_links'>                
-                <AiFillGithub size='25px' color='#2881b8' className='link' onClick={() => window.location.href = 'https://github.com/Gabriel6go8d'}/>
-                <AiFillLinkedin size='25px' color='#2881b8' className='ml-3 link' onClick={() => window.location.href = 'https://www.linkedin.com/in/gabriel-gutierrez-infante-aa1762125/'}/>
+                <AiFillGithub size='30px' color='#2881b8' className='link' onClick={() => window.location.href = 'https://github.com/Gabriel6go8d'}/>
+                <AiFillLinkedin size='30px' color='#2881b8' className='ml-3 link' onClick={() => window.location.href = 'https://www.linkedin.com/in/gabriel-gutierrez-infante-aa1762125/'}/>
             </div>
 
             <p className='movilshow m-5'>{TextSelect.desc2}</p>

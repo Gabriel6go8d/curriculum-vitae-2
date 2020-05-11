@@ -11,6 +11,8 @@ function App() {
   const savedLang = localStorage.getItem('lang') 
   if(savedLang){
     document.documentElement.setAttribute('lang', savedLang)
+  }else{
+    document.documentElement.setAttribute('lang', 'ES')
   }
 
   return (

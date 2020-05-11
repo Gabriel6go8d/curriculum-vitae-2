@@ -67,7 +67,7 @@ function ProjectCard(prop) {
 
     return (
         <React.Fragment>
-            <div className='divider'></div>
+            
             <div className='myCard m-4' ref={myCardRef}>
                 <div className='row m-0 p-0 justify-content-between'>
                     <div className='col-12 col-md-5'>
@@ -89,6 +89,7 @@ function ProjectCard(prop) {
                 </div>  
                 <div className='cardDesc'>{prop.values.know}</div>          
             </div>
+            <div className='divider'></div>
         </React.Fragment>
     )
 }

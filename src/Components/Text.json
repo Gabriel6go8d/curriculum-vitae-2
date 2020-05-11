@@ -52,6 +52,13 @@
             "sk14": "Desarrollo App"
         },
         "contact": {
+            "title": "Contacto",
+            "address1": "Dirección",
+            "address2": "Madrid, 28038, España",
+            "phone1": "Telefono",
+            "phone2": "+34 625967964",
+            "email1": "Correo",
+            "email2": "gabriel.ares93@gmail.com",
             "c11": "Nombre",
             "c12": "John Doe",
             "c21": "Correo",
@@ -119,6 +126,13 @@
             "sk14": "App Development"
         },
         "contact": {
+            "title": "Contact",
+            "address1": "Address",
+            "address2": "Madrid, 28038, España",
+            "phone1": "Phone",
+            "phone2": "+34 625967964",
+            "email1": "Email",
+            "email2": "gabriel.ares93@gmail.com",
             "c11": "Name",
             "c12": "John Doe",
             "c21": "Email",

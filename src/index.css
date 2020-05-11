@@ -62,7 +62,7 @@ body p, h5, div{
 }
 
 .vertical_divider{
-  height: 100%;
+  
   width: 1px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20));
 }
@@ -330,5 +330,8 @@ body p, h5, div{
   }
   .skill_section{
     height: max-content;
+  }
+  .contact_form{
+    padding-top: 0;
   }
 }

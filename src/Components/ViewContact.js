@@ -15,6 +15,16 @@ function ViewContact() {
 
     return (
         <div className='view_expose text-left'>
+            <div className='movilshow' style={{padding: '30px', width: '100%'}}>
+                <h5 className='section_title'>{TextSelect.title}</h5> 
+                <h5>{TextSelect.address1}</h5>
+                <p>{TextSelect.address2}</p>
+                <h5>{TextSelect.phone1}</h5>
+                <a href='tel: +34 625967964'>{TextSelect.phone2}</a>
+                <h5 className='mt-3'>{TextSelect.email1}</h5>
+                <a href='mailto:gabriel.ares93@gmail.com'>{TextSelect.email2}</a>       
+            </div>
+
             <div className='contact_form'>
                 <Form action="https://formspree.io/mbjzjvjz" method="POST">
                     <Form.Group>
